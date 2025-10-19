@@ -1,29 +1,36 @@
-# DIS_CAL_LITE
-Daily total calorie tracking : Tracks your daily total calorie for you to set and hit your goals.
-A local and free helper in your weight loss/gain journey
+# DIS-CAL LITE
+A lightweight and efficient calorie tracking bot powered by AI
 
-Features
-Fully free : DIS-CAL is fully free to use with its use of local models and local hosting.
+---
 
-Accessible anywhere : You can access DIS-CAL-LITE via discord from your phone,tablet and even from another computer.
+<p align="center">
+  <img src="https://raw.githubusercontent.com/mmemoo/dis-cal/main/assets/logo.png" alt="DIS-CAL Logo" width="250"/>
+</p>
 
-Daily total calorie tracking : Tracks your daily total calorie for you to set and hit your goals.
+<p align="center">
+  <em>A local and resource-friendly helper in your weight loss/gain journey</em>
+</p>
 
-Installation
-You can install and setup DIS-CAL like this:
+---
 
-git clone https://github.com/mmemoo/dis-cal
+## Features
 
-cd dis-cal
+- **Optimized for Low Resource Usage** : DIS-CAL LITE is designed to consume minimal RAM and system resources while maintaining key features of the original DIS-CAL.
 
+- **Fully Local and Free** : Just like the original, this version uses local models and runs completely offline — ensuring privacy and zero dependency on cloud APIs.
+
+- **Accessible Anywhere** : Access your calorie tracking assistant via Discord from your phone, tablet, or desktop.
+
+- **Smart Daily Calorie Tracking** : Set goals, track daily intake, and monitor progress without system lag or heavy GPU usage.
+
+---
+
+## Installation
+
+You can install and set up DIS-CAL LITE like this:
+
+```bash
+git clone https://github.com/<your-username>/dis-cal-lite
+cd dis-cal-lite
 pip install -r requirements.txt
-
 python setup.py
-Running
-To run the bot you need a to create discord bot and get its bot token. After you get the token , you can run the bot like this :
-
-cd dis-cal
-
-python app.py --token YOUR_BOT_TOKEN
-System requirements
-A GPU with the minimum of a 4 GB vram
